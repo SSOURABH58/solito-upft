@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.8",
     "app": "*",
     "expo": "~48.0.18",
     "expo-constants": "~14.2.1",
