@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.8",
+    "@shopify/react-native-skia": "^0.1.197",
     "app": "*",
     "expo": "~48.0.18",
     "expo-constants": "~14.2.1",

@@ -1,3 +1,5 @@
-import { HomeScreen } from 'app/features/home/screen'
+import { Redirect } from 'expo-router'
 
-export default HomeScreen
+export default function Layout({ children }) {
+  return <Redirect href="/home" />
+}

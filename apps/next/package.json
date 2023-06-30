@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@expo/next-adapter": "5.0.2",
+    "@shopify/react-native-skia": "^0.1.197",
     "app": "*",
     "next": "13.2.4",
     "raf": "^3.4.1",
