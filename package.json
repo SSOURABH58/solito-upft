@@ -26,5 +26,8 @@
   "nohoist": [
     "**/expo-router",
     "**/expo-router/**"
-  ]
+  ],
+  "dependencies": {
+    "@shopify/react-native-skia": "0.1.172"
+  }
 }

@@ -19,10 +19,10 @@ export function HomeScreen() {
   return (
     <View className="flex-1 items-center justify-center p-3">
       <H1>Welcome to C.R.M.</H1>
-      <Canvas style={{ flex: 1 }}>
+      <Canvas style={{ flex: 1, backgroundColor: '#ccc' }}>
         <RoundedRect
-          x={0}
-          y={0}
+          x={10}
+          y={10}
           width={100}
           height={100}
           r={10}
