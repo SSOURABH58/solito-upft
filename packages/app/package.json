@@ -3,6 +3,7 @@
   "name": "app",
   "main": "index.ts",
   "dependencies": {
+    "@shopify/react-native-skia": "0.1.172",
     "moti": "latest",
     "nativewind": "2.0.9",
     "solito": "3.0.0"
