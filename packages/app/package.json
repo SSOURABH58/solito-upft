@@ -3,6 +3,7 @@
   "name": "app",
   "main": "index.ts",
   "dependencies": {
+    "expo-av": "~13.2.1",
     "moti": "latest",
     "nativewind": "2.0.9",
     "solito": "3.0.0"

@@ -3445,6 +3445,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:packages/app"
   dependencies:
+    expo-av: ~13.2.1
     moti: latest
     nativewind: 2.0.9
     solito: 3.0.0
@@ -5644,6 +5645,7 @@ __metadata:
     "@types/react-native": ~0.69.1
     app: "*"
     expo: ~48.0.18
+    expo-av: ~13.2.1
     expo-constants: ~14.2.1
     expo-linking: ~4.0.1
     expo-router: ^1.0.0
@@ -5683,6 +5685,15 @@ __metadata:
     path-browserify: ^1.0.0
     url-parse: ^1.5.9
   checksum: 1c3ea7959cd59d7d02716ca97732a1dc28729ba75c70b831dd129f06fd04b7c129e470c5c8cfb46b4df6ff629ca609234885bfddd375a9a17b1e29497edf4dde
+  languageName: node
+  linkType: hard
+
+"expo-av@npm:~13.2.1":
+  version: 13.2.1
+  resolution: "expo-av@npm:13.2.1"
+  peerDependencies:
+    expo: "*"
+  checksum: 9bbcbc3ce8336580b12f895346c06d4079a250703cd09a21949aa40e7e9ee41fc25014994a13d9388787466cb797c7fe88d4c74298911f2c195666b5aa83ee4d
   languageName: node
   linkType: hard
 

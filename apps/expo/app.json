@@ -7,10 +7,14 @@
 
     "platforms": ["ios", "android"],
     "ios": {
-      "bundleIdentifier": "com.solito.nativewind"
+      "bundleIdentifier": "com.solito.nativewind",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
     },
     "android": {
-      "package": "com.solito.nativewind"
+      "package": "com.solito.nativewind",
+      "permissions": ["RECORD_AUDIO", "android.permission.RECORD_AUDIO"]
     },
     "plugins": [
       [
