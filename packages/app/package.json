@@ -6,6 +6,12 @@
     "@shopify/react-native-skia": "0.1.172",
     "moti": "latest",
     "nativewind": "2.0.9",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "path-browserify": "^1.0.1",
+    "fs": "react-native-level-fs",
+    "path": "path-browserify",
+    "react-native-level-fs": "^3.0.1",
+    "react-native-reanimated": "~2.14.4",
     "solito": "3.0.0"
   },
   "sideEffects": false

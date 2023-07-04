@@ -11,6 +11,7 @@ import React from 'react'
 
 import '../global.css'
 import { AppProps } from 'next/app'
+import { LoadSkiaWeb } from '@shopify/react-native-skia/lib/module/web'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

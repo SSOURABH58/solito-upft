@@ -18,6 +18,7 @@ const nextConfig = {
     'nativewind',
     'react-native-gesture-handler',
   ],
+
 }
 
 module.exports = withExpo(nextConfig)
