@@ -33,9 +33,21 @@ export default function AudioScreen2() {
         playsInSilentModeIOS: true,
       })
       console.log('Starting recording..')
+      await Audio.setAudioModeAsync({
+        staysActiveInBackground: true,
+        playThroughEarpieceAndroid: false,
+        shouldDuckAndroid: true,
+        playsInSilentModeIOS: true,
+        allowsRecordingIOS: false,
+      })
       const { recording } = await Audio.Recording.createAsync(
         Audio.RecordingOptionsPresets.HighQuality
       )
+      //   prepareToRecordAsync
+      //   const recording = new Audio.Recording()
+      //   await recording.prepareToRecordAsync(
+      //     Audio.RecordingOptionsPresets.HighQuality
+      //   )
       //   await recording.startAsync()
       setRecording(recording)
       console.log('Recording started')
