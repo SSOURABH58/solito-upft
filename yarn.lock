@@ -5653,6 +5653,7 @@ __metadata:
     react-dom: 18.2.0
     react-native: 0.71.8
     react-native-gesture-handler: ~2.9.0
+    react-native-phone-call: ^1.2.0
     react-native-reanimated: ~2.14.4
     react-native-safe-area-context: 4.5.0
     react-native-screens: ~3.20.0
@@ -10373,6 +10374,13 @@ __metadata:
   version: 0.71.19
   resolution: "react-native-gradle-plugin@npm:0.71.19"
   checksum: 2e3ab679f0b81edd81b9fb88a73a16c8b9b6dbef4e7158fd894c42e6dff04ba8d11f1b9663ffa2c30d0d9deee3cd44b033cd280322c010be3c290e4422088a7a
+  languageName: node
+  linkType: hard
+
+"react-native-phone-call@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "react-native-phone-call@npm:1.2.0"
+  checksum: e90967080c672fbf504d6ad248d07e59fa5444d89fca059e12543cc73ac88171fde477b99d729ebae955f623e9533acaf5652b0f3d494c39de3d9858fae93867
   languageName: node
   linkType: hard
 
